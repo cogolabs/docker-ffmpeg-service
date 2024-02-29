@@ -11,6 +11,9 @@ exports.types = {
             '-codec:a libfdk_aac',
         ],
     },
+    gif: {
+        extension: 'gif',
+    },
     mp3: {
         extension: 'mp3',
         outputOptions: [
