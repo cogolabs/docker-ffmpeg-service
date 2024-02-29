@@ -3,7 +3,7 @@ name: Build & Publish
 on:
   push:
     branches:
-      - "main"             # all branches
+      - "main"             # Main Branch
       - "!dependabot/**"      # exclude dependbot branches
 
 jobs:
