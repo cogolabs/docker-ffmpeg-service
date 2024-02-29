@@ -13,6 +13,9 @@ exports.types = {
     },
     gif: {
         extension: 'gif',
+        outputOptions: [
+            '-vf fps=50,split[s0][s1];[s0]palettegen[p];[s1][p]paletteuse',
+        ],
     },
     mp3: {
         extension: 'mp3',
